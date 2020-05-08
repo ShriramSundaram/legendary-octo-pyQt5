@@ -102,8 +102,8 @@ class MyWindow(QMainWindow):
         self.actionSave_Ctrl_S.setObjectName("actionSave_Ctrl_S")
         self.actionSave_as = QtWidgets.QAction(self)
         self.actionSave_as.setObjectName("actionSave_as")
-        self.actionKeerthanApp1_0 = QtWidgets.QAction(self)
-        self.actionKeerthanApp1_0.setObjectName("actionKeerthanApp1_0")
+        self.actionApp1_0 = QtWidgets.QAction(self)
+        self.actionApp1_0.setObjectName("actionApp1_0")
         self.action2020 = QtWidgets.QAction(self)
         self.action2020.setObjectName("action2020")
         self.menuFile.addAction(self.actionNew)
@@ -149,14 +149,13 @@ class MyWindow(QMainWindow):
         self.label.setText(
             "\n \n A kind, lovely and precisely more mature women. you always accompany your well wishers \n"
             "with your full support!!! You have a been expressing your gratitude to your friends and \n"
-            "family!!! You have clearly Understood that focus is the key towards your success \n"
-            "You have faced numerous hurdles and hardens  in your life, with all those tough lessons- \"\n"
-            "You are ready to march into your new life!!! - You knew how life algorithm works:) \n"
-            "\n Keerthana - Thrive to Succeed ")
+            "family!!! 
+            "You knew how life algorithm works:) \n"
+            "\n A Brief msg to her! ")
         self.label.adjustSize()
 
     def imageForYou(self):
-        self.Image1.setPixmap(QtGui.QPixmap("Keerz2.PNG"))
+        self.Image1.setPixmap(QtGui.QPixmap("Bday_image.PNG"))
         self.Image1.setScaledContents(True)
 
     def resetAll(self):
@@ -171,28 +170,28 @@ class MyWindow(QMainWindow):
         text1 = self.comboBox.currentText()
         text2 = self.comboBox_2.currentText()
 
-        if (text1 == "Keerthana") and (text2 == "Keerthana"):
+        if (text1 == "YourGirlName") and (text2 == "YourGirlName"):
             self.label_3.setText("Nanum Rowdy Tan")
-        elif ((text1 == "Keerthana") and (text2 == "Shuresh")) or ((text1 == "Shuresh") and (text2 == "Keerthana")):
+        elif ((text1 == "YourGirlName") and (text2 == "HerFatherName")) or ((text1 == "HerFatherName") and (text2 == "YourGirlName")):
             self.label_3.setText("Combo : Deiva Thirumagal")
-        elif ((text1 == "Keerthana") and (text2 == "Pushpalatha")) or (
-                (text1 == "Pushpalatha") and (text2 == "Keerthana")):
+        elif ((text1 == "YourGirlName") and (text2 == "HerMotherName")) or (
+                (text1 == "HerMotherName") and (text2 == "YourGirlName")):
             self.label_3.setText("Combo : SandaKozhi")
-        elif ((text1 == "Keerthana") and (text2 == "Niranchanna")) or (
-                (text1 == "Niranchanna") and (text2 == "Keerthana")):
+        elif ((text1 == "YourGirlName") and (text2 == "HerSisterName")) or (
+                (text1 == "HerSisterName") and (text2 == "YourGirlName")):
             self.label_3.setText("Combo : Paasa Paravaigal!!!")
-        elif ((text1 == "Shuresh") and (text2 == "Pushpalatha")) or ((text1 == "Pushpalatha") and (text2 == "Shuresh")):
+        elif ((text1 == "HerFatherName") and (text2 == "HerMotherName")) or ((text1 == "HerMotherName") and (text2 == "HerFatherName")):
             self.label_3.setText("Combo:Samsaram Athu Minsaaram")
-        elif ((text1 == "Niranchanna") and (text2 == "Pushpalatha")) or (
-                (text1 == "Pushpalatha") and (text2 == "Niranchanna")):
+        elif ((text1 == "HerSisterName") and (text2 == "HerMotherName")) or (
+                (text1 == "HerMotherName") and (text2 == "HerSisterName")):
             self.label_3.setText("Combo: Mayakannadi")
-        elif ((text1 == "Shuresh") and (text2 == "Niranchanna")) or ((text1 == "Niranchanna") and (text2 == "Shuresh")):
+        elif ((text1 == "HerFatherName") and (text2 == "HerSisterName")) or ((text1 == "HerSisterName") and (text2 == "HerFatherName")):
             self.label_3.setText("Combo: Kadaikutti Singam")
-        elif (text1 == "Niranchanna") and (text2 == "Niranchanna"):
+        elif (text1 == "HerSisterName") and (text2 == "HerSisterName"):
             self.label_3.setText("Yaara Di Nee Mozhini")
-        elif (text1 == "Pushpalatha") and (text2 == "Pushpalatha"):
+        elif (text1 == "HerMotherName") and (text2 == "HerMotherName"):
             self.label_3.setText("Ratha Sarithiram!!!")
-        elif (text1 == "Shuresh") and (text2 == "Shuresh"):
+        elif (text1 == "HerFatherName") and (text2 == "HerFatherName"):
             self.label_3.setText("Anbe Shivam (Shiva Shiva)!!!")
         else:
             self.label_3.setText("Invalid Combo")
@@ -205,14 +204,14 @@ class MyWindow(QMainWindow):
         self.pushButton_4.setText(_translate("MainWindow", "Reset"))
         self.label_2.setText(_translate("MainWindow", "For You My Everthing"))
         self.label.setText(_translate("MainWindow", "For You"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "Keerthana"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "Niranchanna"))
-        self.comboBox.setItemText(2, _translate("MainWindow", "Pushpalatha"))
-        self.comboBox.setItemText(3, _translate("MainWindow", "Shuresh"))
-        self.comboBox_2.setItemText(0, _translate("MainWindow", "Shuresh"))
-        self.comboBox_2.setItemText(1, _translate("MainWindow", "Keerthana"))
-        self.comboBox_2.setItemText(2, _translate("MainWindow", "Niranchanna"))
-        self.comboBox_2.setItemText(3, _translate("MainWindow", "Pushpalatha"))
+        self.comboBox.setItemText(0, _translate("MainWindow", "YourGirlName"))
+        self.comboBox.setItemText(1, _translate("MainWindow", "HerSisterName"))
+        self.comboBox.setItemText(2, _translate("MainWindow", "HerMotherName"))
+        self.comboBox.setItemText(3, _translate("MainWindow", "HerFatherName"))
+        self.comboBox_2.setItemText(0, _translate("MainWindow", "HerFatherName"))
+        self.comboBox_2.setItemText(1, _translate("MainWindow", "YourGirlName"))
+        self.comboBox_2.setItemText(2, _translate("MainWindow", "HerSisterName"))
+        self.comboBox_2.setItemText(3, _translate("MainWindow", "HerMotherName"))
         self.label_3.setText(_translate("MainWindow", "Answer"))
         self.pushButton_5.setText(_translate("MainWindow", "Submit"))
         self.textEdit.setHtml(_translate("MainWindow",
@@ -229,7 +228,7 @@ class MyWindow(QMainWindow):
         self.actionNew.setText(_translate("MainWindow", "New"))
         self.actionSave_Ctrl_S.setText(_translate("MainWindow", "Save Ctrl + S"))
         self.actionSave_as.setText(_translate("MainWindow", "Save as"))
-        self.actionKeerthanApp1_0.setText(_translate("MainWindow", "KeerthanApp1.0"))
+        self.actionApp1_0.setText(_translate("MainWindow", "YourGirlNameApp1.0"))
         self.action2020.setText(_translate("MainWindow", "2020"))
 
 
