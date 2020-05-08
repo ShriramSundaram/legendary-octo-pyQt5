@@ -171,28 +171,28 @@ class MyWindow(QMainWindow):
         text2 = self.comboBox_2.currentText()
 
         if (text1 == "YourGirlName") and (text2 == "YourGirlName"):
-            self.label_3.setText("Nanum Rowdy Tan")
+            self.label_3.setText("Enter the text that Describe Her")
         elif ((text1 == "YourGirlName") and (text2 == "HerFatherName")) or ((text1 == "HerFatherName") and (text2 == "YourGirlName")):
-            self.label_3.setText("Combo : Deiva Thirumagal")
+            self.label_3.setText("Combo : Enter the text that Describe together")
         elif ((text1 == "YourGirlName") and (text2 == "HerMotherName")) or (
                 (text1 == "HerMotherName") and (text2 == "YourGirlName")):
-            self.label_3.setText("Combo : SandaKozhi")
+            self.label_3.setText("Combo : Enter the text that Describe together")
         elif ((text1 == "YourGirlName") and (text2 == "HerSisterName")) or (
                 (text1 == "HerSisterName") and (text2 == "YourGirlName")):
-            self.label_3.setText("Combo : Paasa Paravaigal!!!")
+            self.label_3.setText("Combo : Enter the text that Describe together!!!")
         elif ((text1 == "HerFatherName") and (text2 == "HerMotherName")) or ((text1 == "HerMotherName") and (text2 == "HerFatherName")):
-            self.label_3.setText("Combo:Samsaram Athu Minsaaram")
+            self.label_3.setText("Combo: Enter the text that Describe together")
         elif ((text1 == "HerSisterName") and (text2 == "HerMotherName")) or (
                 (text1 == "HerMotherName") and (text2 == "HerSisterName")):
-            self.label_3.setText("Combo: Mayakannadi")
+            self.label_3.setText("Combo: Enter the text that Describe together")
         elif ((text1 == "HerFatherName") and (text2 == "HerSisterName")) or ((text1 == "HerSisterName") and (text2 == "HerFatherName")):
-            self.label_3.setText("Combo: Kadaikutti Singam")
+            self.label_3.setText("Combo: Enter the text that Describe together")
         elif (text1 == "HerSisterName") and (text2 == "HerSisterName"):
-            self.label_3.setText("Yaara Di Nee Mozhini")
+            self.label_3.setText("Enter the text that Describe Her")
         elif (text1 == "HerMotherName") and (text2 == "HerMotherName"):
-            self.label_3.setText("Ratha Sarithiram!!!")
+            self.label_3.setText("Enter the text that Describe Her!!!")
         elif (text1 == "HerFatherName") and (text2 == "HerFatherName"):
-            self.label_3.setText("Anbe Shivam (Shiva Shiva)!!!")
+            self.label_3.setText("Enter the text that Describe Him!!!")
         else:
             self.label_3.setText("Invalid Combo")
 
