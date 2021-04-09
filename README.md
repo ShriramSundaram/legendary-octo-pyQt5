@@ -5,7 +5,7 @@ This repository includes GUI samples using pyQt5.
 
 General: Inorder to create .py to .exe: go to particular folder and open command terminal: pyinstaller --onefile -w [script_name].py  
 
-<u>HBD<ins> - Happy Birthday Folder: This HBD GUI is created basically to show techincal way of affection. User can use this template python file to present it as gift to their loved ones(as like different way-technical way of showing affection).
+/*HBD*/ - Happy Birthday Folder: This HBD GUI is created basically to show techincal way of affection. User can use this template python file to present it as gift to their loved ones(as like different way-technical way of showing affection).
 
 Features:
  - a small combo box is available where user can write family members name and provide suitable output for that combo.
